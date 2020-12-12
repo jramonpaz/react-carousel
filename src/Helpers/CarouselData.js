@@ -16,4 +16,7 @@ export const images = [
   },
 ];
 
-// En ves de tener la imágenes fijas las vamos a carga desde la url https://picsum.photos/v2/list
+/* 
+  En ves de tener la imágenes fijas las vamos a carga desde la url:
+  https://picsum.photos/v2/list
+ */
