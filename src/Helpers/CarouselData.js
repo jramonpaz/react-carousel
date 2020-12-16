@@ -2,7 +2,7 @@ import City from "../Images/city.jpg";
 import Salvador from "../Images/salvador.jpg";
 import Ubc from "../Images/ubc.jpg";
 
-export const images = [
+const images = [
   { title: "San Diego", subtitle: "This is San Diego", img: City },
   {
     title: "Salvador, Brazil",
@@ -15,6 +15,14 @@ export const images = [
     img: Ubc,
   },
 ];
+
+function loadImages()
+{
+  console.log('Cargando las imágenes');
+  
+}
+
+export {images}
 
 /* 
   En ves de tener la imágenes fijas las vamos a carga desde la url:
